@@ -1,0 +1,14 @@
+<p>nest-router-test works!</p>
+
+<nav>
+  <ul>
+    <li><a routerLink="child-a">子节点a</a></li>
+    <!--↓↓ 这里的'./child-b'指的是相对路由而不是组件，'../child-b'会导致往上翻页-->
+    <li><a routerLink="./child-b">子节点a导航到子节点b</a></li>
+    <li><a routerLink="child-b">子节点b</a></li>
+    <li><a routerLink="child-c">子节点c</a></li>
+    <li><a routerLink="child-d">子节点d</a></li>
+  </ul>
+</nav>
+
+<router-outlet></router-outlet>

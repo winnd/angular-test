@@ -1,0 +1,23 @@
+<h3>Cart</h3>
+
+<p>
+  <a routerLink="/shipping">货品价格</a>
+</p>
+
+<div class="cart-item" *ngFor="let item of items">
+  <span>{{ item.name }}</span>
+  <span>{{ item.price | currency }}</span>
+</div>
+
+<form [formGroup]="checkoutForm">
+  <div>
+    <label for="name">名字</label>
+    <input type="text" id="name" formControlName="name">
+  </div>
+  <div>
+    <label for="address">地址</label>
+    <input type="text" id="address" formControlName="address">
+  </div>
+
+  <button class="button" type="submit">购买</button>
+</form>
