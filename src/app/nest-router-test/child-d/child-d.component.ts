@@ -6,6 +6,7 @@ const template = `
     <div class="div1" [style.background-color]="getBg('yellow')">div1</div>
 `
 
+
 @Component({
   selector : 'child-d',
   template,
@@ -22,7 +23,5 @@ export class ChildDComponent implements OnInit {
   getBg(color: string) {
     return color
   }
-
-
 
 }

@@ -16,6 +16,12 @@ import { ChildAComponent } from '../app/nest-router-test/child-a/child-a.compone
 import { ChildBComponent } from '../app/nest-router-test/child-b/child-b.component'
 import { ChildCComponent } from '../app/nest-router-test/child-c/child-c.component'
 import { ChildDComponent } from '../app/nest-router-test/child-d/child-d.component'
+import { 获取input值的方法 } from '../app/nest-router-test/获取input值的方法/获取input值的方法'
+import { input和output } from '../app/nest-router-test/input和output/input和output'
+import { 单内容插槽模板 } from '../app/nest-router-test/插槽/单内容插槽/单内容插槽模板'
+import { 单内容插槽例子 } from '../app/nest-router-test/插槽/单内容插槽/单内容插槽例子'
+import { 多内容插槽例子 } from '../app/nest-router-test/插槽/多内容插槽/多内容插槽例子'
+import { 多内容插槽模板 } from '../app/nest-router-test/插槽/多内容插槽/多内容插槽模板'
 
 const routes: Routes = [
   {path: 'cart', component: CartComponent},
@@ -58,6 +64,12 @@ const routes: Routes = [
     ProductAlertsComponent,
     ProductDetailComponent,
     NestRouterTestComponent,
+    获取input值的方法,
+    input和output,
+    单内容插槽模板,
+    单内容插槽例子,
+    多内容插槽例子,
+    多内容插槽模板,
   ],
 })
 
