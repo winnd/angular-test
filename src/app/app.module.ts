@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core'
 import { BrowserModule } from '@angular/platform-browser'
 import { AppComponent } from './app.component'
 import { RoutingModule } from '../router/routing.module';
+import { BlankComponentShanchuComponent } from './nest-router-test/blank-component-shanchu/blank-component-shanchu/blank-component-shanchu.component';
 // import { Page404Component } from './page404/page404.component';
 // import { ChildAComponent } from './nest-router-test/child-a/child-a.component';
 // import { ChildBComponent } from './nest-router-test/child-b/child-b.component';
@@ -16,6 +17,7 @@ import { RoutingModule } from '../router/routing.module';
   bootstrap   : [AppComponent],
   declarations: [
     // NestRouterTestComponent,
+    BlankComponentShanchuComponent
   ],
 })
 export class AppModule {
